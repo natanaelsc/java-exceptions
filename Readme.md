@@ -89,6 +89,7 @@ Informa ao chamador que este método pode lançar uma das exceções listadas no
 
 É usada para lançar explicitamente uma exceção de um método ou de qualquer bloco de código.
 Usada principalmente para lançar exceções personalizadas
+
 ***Importante***:
 O fluxo de execução "normal" do programa para imediatamente apos a execução da cláusula *throw*. O bloco *try* envolvente mais próximo é verificado para encontrar um bloco *catch* que corresponda ao tipo de exceção.
 Caso encontre essa correspondência, o controlado é transferido para esse bloco. Caso contrário, o próximo bloco *try* envolvente é verificado e assim por diante.
@@ -97,12 +98,19 @@ Outro caso, é se nenhuma captura for encontrada, o manipulador da exceção pad
 ## 🔗 Referências
 
 <https://www.devmedia.com.br/trabalhando-com-excecoes-em-java/27601>
+
 <https://www.youtube.com/watch?v=ld2C4GcAtsg&t=296s>
+
 <https://www.programcreek.com/2009/02/diagram-for-hierarchy-of-exception-classes/>
+
 <https://www.projetojavaweb.com/certificado-aluno/plataforma-curso/aulaatual/467726283/idcurso/1/idvideoaula/161>
+
 <https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Error.html>
+
 <https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Exception.html>
+
 <https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Exception.html>
+
 <https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/RuntimeException.html>
 
 ## 🤝 Contribuindo
